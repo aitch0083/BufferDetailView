@@ -3,8 +3,8 @@ BufferDetailView
 
 BufferView of EasyUI grid component comes with the DetailView option now.
 
-### USAGE
-#1.Introduce the source
+#USAGE
+###1.Introduce the source
 ```
 requirejs.config({
     baseUrl: '/js/lib',
@@ -26,7 +26,7 @@ requirejs.config({
     }
 })
 ```
-#2.Put it into the field
+###2.Put it into the field
 ```
 $('#DataGrid').datagrid({
     view: bufferview,
